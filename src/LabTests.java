@@ -3,10 +3,12 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class LabTests {
+public class LabTests 
+{
 
 	@Test
-	public void test() {
+	public void testReturn1() 
+	{
 		assertTrue(1==1);
 	}
 
