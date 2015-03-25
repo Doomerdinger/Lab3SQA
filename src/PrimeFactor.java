@@ -7,14 +7,14 @@ public class PrimeFactor
 	{
 		
 	}
-	public ArrayList findFactors(int num)
+	public ArrayList<Integer> findFactors(int num)
 	{
 		return null;
 	}
-	public static void main(String[] args) 
-	{
-		// TODO Auto-generated method stub
-
-	}
+//	public static void main(String[] args) 
+//	{
+//		// TODO Auto-generated method stub
+//
+//	}
 
 }
