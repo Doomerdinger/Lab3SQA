@@ -9,7 +9,7 @@ public class PrimeFactor
 	}
 	public ArrayList<Integer> findFactors(int num)
 	{
-		return null;
+		return new ArrayList<Integer>();
 	}
 //	public static void main(String[] args) 
 //	{
