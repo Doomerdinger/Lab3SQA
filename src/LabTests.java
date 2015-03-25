@@ -1,6 +1,7 @@
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import org.junit.Test;
 
@@ -30,5 +31,13 @@ public class LabTests
 		tArray.clear();
 		tArray.add(3);
 		assertEquals(tArray, p.findFactors(3));
+	}
+	
+	@Test
+	public void testReturn4() 
+	{
+		tArray.clear();
+		tArray.addAll(Arrays.asList(2,2));
+		assertEquals(tArray, p.findFactors(4));
 	}
 }
