@@ -40,4 +40,12 @@ public class LabTests
 		tArray.addAll(Arrays.asList(2,2));
 		assertEquals(tArray, p.findFactors(4));
 	}
+	
+	@Test
+	public void testReturn6() 
+	{
+		tArray.clear();
+		tArray.addAll(Arrays.asList(2,3));
+		assertEquals(tArray, p.findFactors(6));
+	}
 }
