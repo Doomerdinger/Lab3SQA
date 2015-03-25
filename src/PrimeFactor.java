@@ -10,7 +10,7 @@ public class PrimeFactor
 	public ArrayList<Integer> findFactors(int num)
 	{
 		ArrayList<Integer> array = new ArrayList<Integer>();
-		if(num % 2 == 0)
+		while(num % 2 == 0)
 		{
 			array.add(2);
 			num/=2;
