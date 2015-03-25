@@ -18,6 +18,7 @@ public class PrimeFactor
 	
 	public static ArrayList<Integer> getPrimes(int num)
 	{
-		return null;
+		ArrayList<Integer> array = new ArrayList<Integer>();
+		return array;
 	}
 }
