@@ -23,4 +23,12 @@ public class LabTests
 		tArray.add(2);
 		assertEquals(tArray, p.findFactors(2));
 	}
+	
+	@Test
+	public void testReturn3() 
+	{
+		tArray.clear();
+		tArray.add(3);
+		assertEquals(tArray, p.findFactors(3));
+	}
 }
