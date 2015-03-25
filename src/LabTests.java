@@ -15,5 +15,12 @@ public class LabTests
 	{
 		assertEquals(tArray, p.findFactors(1));
 	}
-
+	
+	@Test
+	public void testReturn2() 
+	{
+		tArray.clear();
+		tArray.add(2);
+		assertEquals(tArray, p.findFactors(2));
+	}
 }
