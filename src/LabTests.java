@@ -64,4 +64,12 @@ public class LabTests
 		tArray.addAll(Arrays.asList(3,3));
 		assertEquals(tArray, p.findFactors(9));
 	}
+	
+	@Test
+	public void testReturn325115() 
+	{
+		tArray.clear();
+		tArray.addAll(Arrays.asList(5,7,7,1327));
+		assertEquals(tArray, p.findFactors(325115));
+	}
 }
