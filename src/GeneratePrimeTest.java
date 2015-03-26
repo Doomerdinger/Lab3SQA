@@ -36,15 +36,14 @@ public class GeneratePrimeTest
 	   public static Collection primeNumbers() 
 	   {
 	      return Arrays.asList(new Object[][] {
-	         { 2, getList(Arrays.asList()) }
+	         { 2, getList(Arrays.asList()) },
+	         { 3, getList(Arrays.asList(2)) }
 	      });
 	   }
 
-	   // This test will run 4 times since we have 5 parameters defined
 	   @Test
-	   public void testPrimeNumberChecker()
+	   public void testPrimeNumberGenerator()
 	   {
-	      System.out.println("Parameterized Number is : " + inputNumber);
 	      assertEquals(expectedResult, 
 	      PrimeFactor.getPrimes(inputNumber));
 	   }
