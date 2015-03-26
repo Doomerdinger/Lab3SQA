@@ -28,7 +28,11 @@ public class PrimeFactor
 			{
 				array.add(3);
 				if(num > 5)
+				{
 					array.add(5);
+					if(num > 7)
+						array.add(7);
+				}
 			}
 		}
 //		if(num > 2)
