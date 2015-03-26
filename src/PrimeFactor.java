@@ -19,6 +19,8 @@ public class PrimeFactor
 	public static ArrayList<Integer> getPrimes(int num)
 	{
 		ArrayList<Integer> array = new ArrayList<Integer>();
+		if(num > 2)
+			array.add(2);
 		return array;
 	}
 }
