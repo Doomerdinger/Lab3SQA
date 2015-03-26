@@ -41,7 +41,8 @@ public class GeneratePrimeTest
 	         { 4, getList(Arrays.asList(2,3)) },
 	         { 5, getList(Arrays.asList(2,3)) },
 	         { 6, getList(Arrays.asList(2,3,5)) },
-	         { 7, getList(Arrays.asList(2,3,5)) }
+	         { 7, getList(Arrays.asList(2,3,5)) },
+	         { 8, getList(Arrays.asList(2,3,5, 7)) }
 	      });
 	   }
 
