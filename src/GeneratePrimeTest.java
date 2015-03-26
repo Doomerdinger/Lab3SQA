@@ -38,7 +38,7 @@ public class GeneratePrimeTest
 	      return Arrays.asList(new Object[][] {
 	         { 2, getList(Arrays.asList()) },
 	         { 3, getList(Arrays.asList(2)) },
-	         { 3, getList(Arrays.asList(2,3)) }
+	         { 4, getList(Arrays.asList(2,3)) }
 	      });
 	   }
 

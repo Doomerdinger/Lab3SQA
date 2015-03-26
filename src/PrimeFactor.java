@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 
 public class PrimeFactor 
@@ -7,6 +8,7 @@ public class PrimeFactor
 	{
 		
 	}
+	
 	public ArrayList<Integer> findFactors(int num)
 	{
 		ArrayList<Integer> array = new ArrayList<Integer>();
