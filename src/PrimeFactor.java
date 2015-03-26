@@ -30,9 +30,12 @@ public class PrimeFactor
 		for(int i = 5; i < num; i+=2)
 		{
 			boolean isPrime = true;
-			for(int x = 3; x < i; x+=2)
+			for(int x : array)
 				if(i % x == 0)
+				{
 					isPrime = false;
+					break;
+				}
 			if(isPrime)
 				array.add(i);
 		}
