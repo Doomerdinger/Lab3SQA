@@ -22,7 +22,11 @@ public class PrimeFactor
 	{
 		ArrayList<Integer> array = new ArrayList<Integer>();
 		if(num > 2)
+		{
 			array.add(2);
+			if(num > 3)
+				array.add(3);
+		}
 		return array;
 	}
 }
