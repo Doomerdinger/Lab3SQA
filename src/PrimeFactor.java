@@ -27,15 +27,20 @@ public class PrimeFactor
 			if(num > 3)
 				array.add(3);
 		}
+		int root = (int) Math.sqrt(num);
 		for(int i = 5; i < num; i+=2)
 		{
 			boolean isPrime = true;
 			for(int x : array)
+			{
+				if(x > root)
+					break;
 				if(i % x == 0)
 				{
 					isPrime = false;
 					break;
 				}
+			}
 			if(isPrime)
 				array.add(i);
 		}
