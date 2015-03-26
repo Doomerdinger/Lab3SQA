@@ -25,27 +25,17 @@ public class PrimeFactor
 		{
 			array.add(2);
 			if(num > 3)
-			{
 				array.add(3);
-				if(num > 5)
-				{
-					array.add(5);
-					if(num > 7)
-						array.add(7);
-				}
-			}
 		}
-//		if(num > 2)
-//			array.add(2);
-//		for(int i = 3; i < num; i+=2)
-//		{
-//			boolean isPrime = true;
-//			for(int x = 5; x < i; x+=2)
-//				if(i % x == 0)
-//					isPrime = false;
-//			if(isPrime)
-//				array.add(i);
-//		}
+		for(int i = 5; i < num; i+=2)
+		{
+			boolean isPrime = true;
+			for(int x = 3; x < i; x+=2)
+				if(i % x == 0)
+					isPrime = false;
+			if(isPrime)
+				array.add(i);
+		}
 		return array;
 	}
 }
